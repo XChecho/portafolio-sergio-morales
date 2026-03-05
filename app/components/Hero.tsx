@@ -1,8 +1,11 @@
 'use client';
 import { motion } from 'motion/react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export default function Hero() {
+  const t = useTranslations('hero');
+
   return (
     <section id="hero" className="relative pt-32 pb-20 px-6 overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-blue-500/10 blur-[120px] -z-10" />
@@ -15,23 +18,23 @@ export default function Hero() {
             className="text-center md:text-left"
           >
             <span className="inline-block px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs font-medium text-zinc-400 mb-6">
-              Disponible para nuevos proyectos
+              {t('available')}
             </span>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">
-              Sergio Alejandro Morales <br />
+              {t('title')} <br />
               <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                Mobile Specialist
+                {t('subtitle')}
               </span>
             </h1>
             <p className="text-lg md:text-xl text-zinc-400 mb-10 leading-relaxed">
-              Desarrollador Frontend Senior enfocado en crear experiencias móviles excepcionales con React Native y Expo. 3 apps publicadas y contando.
+              {t('description')}
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
               <a href="#projects" className="px-8 py-3 bg-white text-black font-semibold rounded-xl hover:scale-105 transition-transform">
-                Ver Proyectos
+                {t('viewProjects')}
               </a>
               <a href="#contact" className="px-8 py-3 border border-white/10 bg-white/5 font-semibold rounded-xl hover:bg-white/10 transition-colors">
-                Contactar
+                {t('contact')}
               </a>
             </div>
           </motion.div>

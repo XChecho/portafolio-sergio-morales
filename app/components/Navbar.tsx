@@ -1,7 +1,11 @@
 'use client';
 import { motion } from 'motion/react';
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
+  const t = useTranslations('nav');
+
   return (
     <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-[#0a0a0a]/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -13,12 +17,13 @@ export default function Navbar() {
           SM<span className="text-blue-400">.</span>
         </motion.div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
-          <a href="#hero" className="hover:text-white transition-colors">Inicio</a>
-          <a href="#skills" className="hover:text-white transition-colors">Skills</a>
-          <a href="#projects" className="hover:text-white transition-colors">Proyectos</a>
-          <a href="#experience" className="hover:text-white transition-colors">Experiencia</a>
-          <a href="#contact" className="px-4 py-2 bg-white text-black rounded-full hover:bg-zinc-200 transition-colors">Contacto</a>
+          <a href="#hero" className="hover:text-white transition-colors">{t('home')}</a>
+          <a href="#skills" className="hover:text-white transition-colors">{t('skills')}</a>
+          <a href="#projects" className="hover:text-white transition-colors">{t('projects')}</a>
+          <a href="#experience" className="hover:text-white transition-colors">{t('experience')}</a>
+          <a href="#contact" className="px-4 py-2 bg-white text-black rounded-full hover:bg-zinc-200 transition-colors">{t('contact')}</a>
         </div>
+        <LanguageSwitcher />
       </div>
     </nav>
   );

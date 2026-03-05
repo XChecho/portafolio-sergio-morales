@@ -1,69 +1,72 @@
 'use client';
 import { motion } from 'motion/react';
 import { Smartphone, Globe, Workflow, Palette, Layers, Database, Server, Cloud } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export default function BentoSkills() {
+  const t = useTranslations('skills');
+
   const skills = [
     { 
       name: 'React Native / Expo', 
       icon: <Smartphone className="w-6 h-6" />, 
-      desc: 'Desarrollo de aplicaciones móviles nativas para iOS y Android con un solo código base.',
+      desc: t('reactNative'),
       color: 'from-blue-500/20 to-blue-600/10',
       borderColor: 'border-blue-500/30'
     },
     { 
       name: 'Next.js', 
       icon: <Globe className="w-6 h-6" />, 
-      desc: 'Framework React para crear aplicaciones web server-side rendered y estáticas.',
+      desc: t('nextjs'),
       color: 'from-zinc-500/20 to-zinc-600/10',
       borderColor: 'border-zinc-500/30'
     },
     { 
       name: 'n8n', 
       icon: <Workflow className="w-6 h-6" />, 
-      desc: 'Automatización de flujos de trabajo open-source para conectar APIs y servicios.',
+      desc: t('n8n'),
       color: 'from-purple-500/20 to-purple-600/10',
       borderColor: 'border-purple-500/30'
     },
     { 
       name: 'Tailwind CSS', 
       icon: <Palette className="w-6 h-6" />, 
-      desc: 'Framework CSS utility-first para crear interfaces responsivas y modernas.',
+      desc: t('tailwind'),
       color: 'from-cyan-500/20 to-cyan-600/10',
       borderColor: 'border-cyan-500/30'
     },
     { 
       name: 'NativeWind CSS', 
       icon: <Layers className="w-6 h-6" />, 
-      desc: 'Implementación de Tailwind para React Native, estilos utility en apps móviles.',
+      desc: t('nativewind'),
       color: 'from-sky-500/20 to-sky-600/10',
       borderColor: 'border-sky-500/30'
     },
     { 
       name: 'Zustand', 
       icon: <Layers className="w-6 h-6" />, 
-      desc: 'Gestión de estado simple y minimalista para React y React Native.',
+      desc: t('zustand'),
       color: 'from-amber-500/20 to-amber-600/10',
       borderColor: 'border-amber-500/30'
     },
     { 
       name: 'NestJS', 
       icon: <Server className="w-6 h-6" />, 
-      desc: 'Framework Node.js progresivo para construir aplicaciones backend escalables.',
+      desc: t('nestjs'),
       color: 'from-red-500/20 to-red-600/10',
       borderColor: 'border-red-500/30'
     },
     { 
       name: '.NET', 
       icon: <Database className="w-6 h-6" />, 
-      desc: 'Plataforma Microsoft para desarrollo de aplicaciones empresariales y backend.',
+      desc: t('dotnet'),
       color: 'from-indigo-500/20 to-indigo-600/10',
       borderColor: 'border-indigo-500/30'
     },
     { 
       name: 'Deploy Stores', 
       icon: <Cloud className="w-6 h-6" />, 
-      desc: 'Publicación y despliegue de apps en App Store y Play Store.',
+      desc: t('deploy'),
       color: 'from-green-500/20 to-green-600/10',
       borderColor: 'border-green-500/30'
     },
@@ -71,7 +74,7 @@ export default function BentoSkills() {
 
   return (
     <section id="skills" className="py-20 px-6 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold mb-12 text-center md:text-left">Stack Tecnológico</h2>
+      <h2 className="text-3xl font-bold mb-12 text-center md:text-left">{t('title')}</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
         {skills.map((skill, i) => (
           <motion.div

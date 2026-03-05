@@ -1,33 +1,19 @@
 'use client';
-
-const experiences = [
-  { 
-    date: 'Oct 2022 - Presente', 
-    title: 'Mid Frontend - Mobile Developer', 
-    company: 'AgriGlobal Market', 
-    desc: 'Desarrollar y desplegar la aplicación de AgriGlobal Market, maquetar y desarrollar la página Agriglobalmarket.com, participar en la toma de decisiones para nuevos desarrollos, y crear aplicaciones nativas mediante React Native para clientes externos como Nutrihorto (Brasil) y Nara (Norteamérica).',
-    skills: ['ReactJS', 'NextJS', 'React Native', 'Expo', 'App Store Deployment']
-  },
-  { 
-    date: 'Abr 2022 - Oct 2022', 
-    title: 'Frontend Developer', 
-    company: 'Routte', 
-    desc: 'Mejorar el desarrollo visual de la plataforma Routte, verificando y arreglando soportes de clientes, prestando apoyo al equipo de desarrollo y fortaleciendo conocimientos en desarrollo backend con Python/Django.',
-    skills: ['ReactJS', 'NextJS', 'Django']
-  },
-  { 
-    date: 'Sep 2016 - Abr 2022', 
-    title: 'Administrador de Planta de Producción', 
-    company: 'Madecentro', 
-    desc: 'Administrar y coordinar la planta especializada de producción Madeservicios. Recibir, planear y despachar órdenes de producción de los puntos de venta de la zona cafetera. Realizar inventarios mensuales.',
-    skills: ['Sistemas ERP', 'Liderazgo de equipo', 'Administración de recursos']
-  },
-];
+import { useTranslations } from 'next-intl';
 
 export default function Experience() {
+  const t = useTranslations('experience');
+  const experiences = t.raw('items') as Array<{
+    date: string;
+    title: string;
+    company: string;
+    desc: string;
+    skills: string[];
+  }>;
+
   return (
     <section id="experience" className="py-20 px-6 max-w-3xl mx-auto">
-      <h2 className="text-3xl font-bold mb-12 text-center">Experiencia</h2>
+      <h2 className="text-3xl font-bold mb-12 text-center">{t('title')}</h2>
       <div className="space-y-12">
         {experiences.map((item, i) => (
           <div key={i} className="relative pl-8 border-l border-white/10">

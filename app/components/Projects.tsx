@@ -1,53 +1,7 @@
 'use client';
 import { motion } from 'motion/react';
 import { Smartphone, Zap, Globe, AppWindow } from 'lucide-react';
-
-const projects = [
-  {
-    title: 'AgriGlobal Market - B2B Marketplace',
-    desc: 'Plataforma líder en el sector agroindustrial que conecta proveedores y compradores globalmente.',
-    tags: ['Next.js', 'ReactJS', 'Tailwind CSS'],
-    link: 'https://agriglobalmarket.com',
-    images: ['/assets/agmweb.png'],
-  },
-  {
-    title: 'AgriGlobal Market Native App',
-    desc: 'Aplicación nativa diseñada para facilitar el comercio agrícola desde cualquier lugar.',
-    tags: ['React Native', 'Expo', 'Zustand', 'NativeWindCSS'],
-    appStoreLink: 'https://apps.apple.com/us/app/agriglobal-market/id6746349961',
-    playStoreLink: 'https://play.google.com/store/apps/details?id=com.xchecho.agriglobalmApp',
-    images: ['/assets/agmapp1.png', '/assets/agmapp2.png', '/assets/agmapp3.png'],
-  },
-  {
-    title: 'Rendering University - E-Learning',
-    desc: 'Plataforma educativa especializada en la industria del rendering.',
-    tags: ['ReactJS', 'Next.js', 'Tailwind CSS'],
-    link: 'https://renderinguniversity.com',
-    images: ['/assets/renderuniweb.png'],
-  },
-  {
-    title: 'Rendering University Mobile',
-    desc: 'Extensión móvil de la academia para aprendizaje on-the-go.',
-    tags: ['React Native', 'Expo', 'NativeWindCSS'],
-    appStoreLink: 'https://apps.apple.com/us/app/rendering-university/id6744409489',
-    playStoreLink: 'https://play.google.com/store/apps/details?id=com.anonymous.appRenderingUniversity',
-    images: ['/assets/ruapp1.png', '/assets/ruapp2.png', '/assets/ruapp3.png'],
-  },
-  {
-    title: 'Nutrihorto - Reciclou (Brasil)',
-    desc: 'Aplicación móvil que conecta los principales actores del aceite de cocina usado.',
-    tags: ['React Native', 'Expo', 'NativeWindCSS'],
-    link: 'https://www.nutrihorto.com.br',
-    images: [],
-  },
-  {
-    title: 'Routte - Dashboard Admin',
-    desc: 'Panel administrativo para la gestión de rutas de entrega y seguimiento de mensajeros.',
-    tags: ['ReactJS', 'Next.js', 'TypeScript'],
-    link: 'https://routte.co/',
-    images: [],
-  },
-];
+import { useTranslations } from 'next-intl';
 
 interface ProjectCardProps {
   title: string;
@@ -60,6 +14,7 @@ interface ProjectCardProps {
 }
 
 function ProjectCard({ title, desc, tags, link, appStoreLink, playStoreLink, images = [] }: ProjectCardProps) {
+  const t = useTranslations('projects');
   const displayImages = images.length > 0 ? images : [];
   const hasAppLinks = appStoreLink || playStoreLink;
   
@@ -110,18 +65,18 @@ function ProjectCard({ title, desc, tags, link, appStoreLink, playStoreLink, ima
         <div className="flex gap-3">
           {appStoreLink && (
             <a href={appStoreLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-lg text-xs hover:bg-white/20 transition-colors">
-              <Smartphone className="w-3 h-3" /> App Store
+              <Smartphone className="w-3 h-3" /> {t('appStore')}
             </a>
           )}
           {playStoreLink && (
             <a href={playStoreLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-lg text-xs hover:bg-white/20 transition-colors">
-              <Zap className="w-3 h-3" /> Play Store
+              <Zap className="w-3 h-3" /> {t('playStore')}
             </a>
           )}
         </div>
       ) : link ? (
         <a href={link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-3 py-1.5 bg-white/10 rounded-lg text-xs hover:bg-white/20 transition-colors w-fit">
-          <Globe className="w-3 h-3" /> Visitar sitio
+          <Globe className="w-3 h-3" /> {t('visitSite')}
         </a>
       ) : null}
     </motion.div>
@@ -129,12 +84,23 @@ function ProjectCard({ title, desc, tags, link, appStoreLink, playStoreLink, ima
 }
 
 export default function Projects() {
+  const t = useTranslations('projects');
+  const projects = t.raw('items') as Array<{
+    title: string;
+    desc: string;
+    tags: string[];
+    link?: string;
+    appStoreLink?: string;
+    playStoreLink?: string;
+    images?: string[];
+  }>;
+
   return (
     <section id="projects" className="py-20 px-6 max-w-7xl mx-auto">
       <div className="flex items-end justify-between mb-12">
         <div>
-          <h2 className="text-3xl font-bold mb-4">Proyectos Destacados</h2>
-          <p className="text-zinc-400">Una selección de mis trabajos más recientes en mobile y web.</p>
+          <h2 className="text-3xl font-bold mb-4">{t('title')}</h2>
+          <p className="text-zinc-400">{t('subtitle')}</p>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

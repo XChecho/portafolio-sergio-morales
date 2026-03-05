@@ -1,4 +1,4 @@
-import { Navbar, Hero, BentoSkills, Projects, Experience, Contact, Footer, ScrollReveal } from './components';
+import { Navbar, Hero, BentoSkills, Projects, Experience, Contact, Footer, ScrollReveal } from '../components';
 
 export default function Home() {
   return (

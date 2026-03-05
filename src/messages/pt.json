@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "Início",
+    "skills": "Skills",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato"
+  },
+  "hero": {
+    "available": "Disponível para novos projetos",
+    "title": "Sergio Alejandro Morales",
+    "subtitle": "Mobile Specialist",
+    "description": "Desenvolvedor Frontend Sênior focado em criar experiências móveis excepcionais com React Native e Expo. 3+ apps publicados e contando.",
+    "viewProjects": "Ver Projetos",
+    "contact": "Contatar"
+  },
+  "skills": {
+    "title": "Stack Tecnológico",
+    "reactNative": "Desenvolvimento de aplicativos nativos para iOS e Android com uma única base de código.",
+    "nextjs": "Framework React para criar aplicações web server-side rendered e estáticas.",
+    "n8n": "Automação de fluxos de trabalho open-source para conectar APIs e serviços.",
+    "tailwind": "Framework CSS utility-first para criar interfaces responsivas e modernas.",
+    "nativewind": "Implementação do Tailwind para React Native, estilos utility em apps móveis.",
+    "zustand": "Gerenciamento de estado simples e minimalista para React e React Native.",
+    "nestjs": "Framework Node.js progressivo para construir aplicações backend escaláveis.",
+    "dotnet": "Plataforma Microsoft para desenvolvimento de aplicações empresariais e backend.",
+    "deploy": "Publicação e implantação de apps na App Store e Play Store."
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "subtitle": "Uma seleção dos meus trabalhos mais recentes em mobile e web.",
+    "visitSite": "Visitar site",
+    "appStore": "App Store",
+    "playStore": "Play Store",
+    "items": [
+      {
+        "title": "AgriGlobal Market - B2B Marketplace",
+        "desc": "Plataforma líder no setor agroindustrial que conecta fornecedores e compradores globalmente.",
+        "tags": ["Next.js", "ReactJS", "Tailwind CSS"],
+        "link": "https://agriglobalmarket.com",
+        "images": ["/assets/agmweb.png"]
+      },
+      {
+        "title": "AgriGlobal Market Native App",
+        "desc": "Aplicativo nativo projetado para facilitar o comércio agrícola de qualquer lugar.",
+        "tags": ["React Native", "Expo", "Zustand", "NativeWindCSS"],
+        "appStoreLink": "https://apps.apple.com/us/app/agriglobal-market/id6746349961",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.xchecho.agriglobalmApp",
+        "images": ["/assets/agmapp1.png", "/assets/agmapp2.png", "/assets/agmapp3.png"]
+      },
+      {
+        "title": "Rendering University - E-Learning",
+        "desc": "Plataforma educacional especializada na indústria de rendering.",
+        "tags": ["ReactJS", "Next.js", "Tailwind CSS"],
+        "link": "https://renderinguniversity.com",
+        "images": ["/assets/renderuniweb.png"]
+      },
+      {
+        "title": "Rendering University Mobile",
+        "desc": "Extensão móvel da academia para aprendizado on-the-go.",
+        "tags": ["React Native", "Expo", "NativeWindCSS"],
+        "appStoreLink": "https://apps.apple.com/us/app/rendering-university/id6744409489",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.anonymous.appRenderingUniversity",
+        "images": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"]
+      },
+      {
+        "title": "Nutrihorto - Reciclou (Brasil)",
+        "desc": "Aplicativo móvel que conecta os principais atores do óleo de cozinha usado.",
+        "tags": ["React Native", "Expo", "NativeWindCSS"],
+        "link": "https://www.nutrihorto.com.br",
+        "images": []
+      },
+      {
+        "title": "Routte - Dashboard Admin",
+        "desc": "Painel administrativo para gestão de rotas de entrega e rastreamento de mensageiros.",
+        "tags": ["ReactJS", "Next.js", "TypeScript"],
+        "link": "https://routte.co/",
+        "images": []
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiência",
+    "present": "Atual",
+    "items": [
+      {
+        "date": "Out 2022 - Atual",
+        "title": "Mid Frontend - Mobile Developer",
+        "company": "AgriGlobal Market",
+        "desc": "Desenvolver e implementar o aplicativo AgriGlobal Market, criar e desenvolver a página Agriglobalmarket.com, participar da tomada de decisões para novos desenvolvimentos e criar aplicativos nativos usando React Native para clientes externos como Nutrihorto (Brasil) e Nara (América do Norte).",
+        "skills": ["ReactJS", "NextJS", "React Native", "Expo", "App Store Deployment"]
+      },
+      {
+        "date": "Abr 2022 - Out 2022",
+        "title": "Frontend Developer",
+        "company": "Routte",
+        "desc": "Melhorar o desenvolvimento visual da plataforma Routte, verificando e corrigindo suportes dos clientes, apoiando a equipe de desenvolvimento e fortalecendo conhecimentos em desenvolvimento backend com Python/Django.",
+        "skills": ["ReactJS", "NextJS", "Django"]
+      },
+      {
+        "date": "Set 2016 - Abr 2022",
+        "title": "Administrador de Planta de Produção",
+        "company": "Madecentro",
+        "desc": "Administrar e coordenar a planta especializada de produção Madeservicios. Receber, planejar e despachar ordens de produção dos pontos de venda da região cafeeira. Realizar inventários mensais.",
+        "skills": ["Sistemas ERP", "Liderança de equipe", "Administração de recursos"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Tem um projeto em mente?",
+    "description": "Estou sempre aberto a discutir novas oportunidades e colaborações em desenvolvimento móvil.",
+    "sendEmail": "Enviar Email"
+  },
+  "footer": {
+    "text": "Feito com Next.js e Tailwind."
+  },
+  "downloadCV": "Baixar CV"
+}
