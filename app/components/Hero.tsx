@@ -7,9 +7,9 @@ export default function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section id="hero" className="relative pt-32 pb-20 px-6 overflow-hidden">
+    <section id="hero" className="relative pt-32 pb-20 px-6 overflow-hidden min-h-screen flex items-center">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-blue-500/10 blur-[120px] -z-10" />
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto w-full relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}

@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'motion/react';
+import Image from 'next/image';
 import { Smartphone, Zap, Globe, AppWindow } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
@@ -27,19 +28,21 @@ function ProjectCard({ title, desc, tags, link, appStoreLink, playStoreLink, ima
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:scale-105 z-10" />
         {displayImages.length > 0 ? (
           displayImages.length === 1 ? (
-            <img 
+            <Image 
               src={displayImages[0]} 
               alt={title}
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           ) : (
             <div className="grid grid-cols-2 gap-1 h-full">
               {displayImages.slice(0, 4).map((img, idx) => (
-                <img 
+                <Image 
                   key={idx}
                   src={img} 
                   alt={`${title} screenshot ${idx + 1}`}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               ))}
             </div>

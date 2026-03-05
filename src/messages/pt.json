@@ -114,5 +114,19 @@
   "footer": {
     "text": "Feito com Next.js e Tailwind."
   },
+  "notFound": {
+    "title": "Ops! Esta rota não foi implantada",
+    "description": "Parece que esta tela não passou no controle de qualidade ou ficou no ambiente de staging. Não se preocupe, os melhores bugs acontecem em produção.",
+    "backHome": "Voltar ao Início",
+    "reportBug": "Reportar bug",
+    "techStack": {
+      "reactNative": "React Native",
+      "reactNativeDesc": "Núcleo Multiplataforma",
+      "expo": "Expo",
+      "expoDesc": "Fluxo Universal",
+      "bugHunter": "Caçador de Bugs",
+      "bugHunterDesc": "Especialista QA"
+    }
+  },
   "downloadCV": "Baixar CV"
 }

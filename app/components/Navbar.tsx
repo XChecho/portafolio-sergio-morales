@@ -17,11 +17,11 @@ export default function Navbar() {
           SM<span className="text-blue-400">.</span>
         </motion.div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
-          <a href="#hero" className="hover:text-white transition-colors">{t('home')}</a>
-          <a href="#skills" className="hover:text-white transition-colors">{t('skills')}</a>
-          <a href="#projects" className="hover:text-white transition-colors">{t('projects')}</a>
-          <a href="#experience" className="hover:text-white transition-colors">{t('experience')}</a>
-          <a href="#contact" className="px-4 py-2 bg-white text-black rounded-full hover:bg-zinc-200 transition-colors">{t('contact')}</a>
+          <a href="#hero" className="hover:text-white transition-colors" aria-label={t('home')}>{t('home')}</a>
+          <a href="#skills" className="hover:text-white transition-colors" aria-label={t('skills')}>{t('skills')}</a>
+          <a href="#projects" className="hover:text-white transition-colors" aria-label={t('projects')}>{t('projects')}</a>
+          <a href="#experience" className="hover:text-white transition-colors" aria-label={t('experience')}>{t('experience')}</a>
+          <a href="#contact" className="px-4 py-2 bg-white text-black rounded-full hover:bg-zinc-200 transition-colors" aria-label={t('contact')}>{t('contact')}</a>
         </div>
         <LanguageSwitcher />
       </div>

@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import type { Locale } from '@/i18n/config';
 import type { Metadata } from 'next';
 import '../globals.css';
+import FloatingIcons from '../components/FloatingIcons';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -89,6 +90,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className="antialiased bg-[#0a0a0a] text-white">
+        <FloatingIcons />
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

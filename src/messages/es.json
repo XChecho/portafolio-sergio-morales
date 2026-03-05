@@ -114,5 +114,19 @@
   "footer": {
     "text": "Hecho con Next.js y Tailwind."
   },
+  "notFound": {
+    "title": "¡Ups! Esta ruta no ha sido desplegada",
+    "description": "Parece que esta pantalla no pasó el control de calidad o se quedó en el ambiente de staging. No te preocupes, los mejores bugs ocurren en producción.",
+    "backHome": "Volver al Home",
+    "reportBug": "Reportar bug",
+    "techStack": {
+      "reactNative": "React Native",
+      "reactNativeDesc": "Core Multiplataforma",
+      "expo": "Expo",
+      "expoDesc": "Flujo Universal",
+      "bugHunter": "Cazador de Bugs",
+      "bugHunterDesc": "Especialista QA"
+    }
+  },
   "downloadCV": "Descargar CV"
 }

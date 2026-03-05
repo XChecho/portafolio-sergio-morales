@@ -114,5 +114,19 @@
   "footer": {
     "text": "Made with Next.js and Tailwind."
   },
+  "notFound": {
+    "title": "Oops! This route hasn't been deployed",
+    "description": "This screen didn't pass quality control or got stuck in staging. Don't worry, the best bugs happen in production.",
+    "backHome": "Back to Home",
+    "reportBug": "Report bug",
+    "techStack": {
+      "reactNative": "React Native",
+      "reactNativeDesc": "Cross-platform Core",
+      "expo": "Expo",
+      "expoDesc": "Universal Workflow",
+      "bugHunter": "Bug Hunter",
+      "bugHunterDesc": "QA Specialist"
+    }
+  },
   "downloadCV": "Download CV"
 }
