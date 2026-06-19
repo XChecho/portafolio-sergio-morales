@@ -50,6 +50,7 @@ export default function Hero() {
                 src="/assets/profile.png"
                 alt="Sergio Alejandro Morales"
                 fill
+                sizes="(max-width: 768px) 256px, 320px"
                 className="object-cover"
                 priority
               />

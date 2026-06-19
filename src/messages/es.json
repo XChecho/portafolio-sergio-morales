@@ -16,15 +16,24 @@
   },
   "skills": {
     "title": "Stack Tecnológico",
-    "reactNative": "Desarrollo de aplicaciones móviles nativas para iOS y Android con un solo código base.",
-    "nextjs": "Framework React para crear aplicaciones web server-side rendered y estáticas.",
-    "n8n": "Automatización de flujos de trabajo open-source para conectar APIs y servicios.",
-    "tailwind": "Framework CSS utility-first para crear interfaces responsivas y modernas.",
-    "nativewind": "Implementación de Tailwind para React Native, estilos utility en apps móviles.",
-    "zustand": "Gestión de estado simple y minimalista para React y React Native.",
-    "nestjs": "Framework Node.js progresivo para construir aplicaciones backend escalables.",
-    "dotnet": "Plataforma Microsoft para desarrollo de aplicaciones empresariales y backend.",
-    "deploy": "Publicación y despliegue de apps en App Store y Play Store."
+    "reactNative": "Desarrollé AgriGlobal Market App y Rendering University Mobile desde un solo código base usando React Native y Expo, asegurando una experiencia consistente en iOS y Android. Ambas apps están publicadas en App Store y Play Store.",
+    "reactNativeLong": "Usé React Native y Expo para construir AgriGlobal Market App y Rendering University Mobile desde un solo código base, reduciendo tiempos de desarrollo y asegurando una experiencia consistente en iOS y Android. Ambas apps están publicadas en App Store y Play Store.",
+    "nextjs": "Desarrollé la plataforma web de AgriGlobal Market, el sitio de e-learning de Rendering University, el dashboard administrativo de Routte y este portafolio personal usando Next.js, aprovechando SSR y generación estática para SEO y rendimiento.",
+    "nextjsLong": "Usé Next.js para desarrollar la plataforma web de AgriGlobal Market, el sitio de e-learning de Rendering University, el dashboard administrativo de Routte y este portafolio personal, aprovechando SSR y generación estática para SEO y rendimiento.",
+    "hermes": "Automatice el aprovisionamiento de servidores en Hetzner, gestioné cronjobs en proyectos personales y creé skills personalizadas con Hermes Agent para optimizar flujos de trabajo de desarrollo y reducir tareas manuales.",
+    "hermesLong": "Usé Hermes Agent para automatizar el aprovisionamiento de servidores en Hetzner, gestionar cronjobs en proyectos personales y crear skills personalizadas que optimizan flujos de trabajo de desarrollo.",
+    "tailwind": "Estilice el sitio de AgriGlobal Market, la plataforma de Rendering University, este portafolio y la invitación de Macarena Baby Shower con Tailwind CSS, manteniendo un sistema de diseño consistente y responsive en todos los proyectos.",
+    "tailwindLong": "Usé Tailwind CSS para estilizar el sitio de AgriGlobal Market, la plataforma de Rendering University, este portafolio y la invitación de Macarena Baby Shower, manteniendo un sistema de diseño consistente y responsive.",
+    "nativewind": "Aplique estilos utility-first de Tailwind a AgriGlobal Market App y Rendering University Mobile usando NativeWind CSS, manteniendo los design tokens alineados con sus versiones web para un look unificado.",
+    "nativewindLong": "Usé NativeWind CSS para llevar los estilos utility-first de Tailwind a AgriGlobal Market App y Rendering University Mobile, manteniendo los design tokens alineados con sus versiones web.",
+    "zustand": "Implemente gestión de estado ligera y escalable en AgriGlobal Market App y Rendering University Mobile con Zustand, manejando autenticación, datos de usuario y estado de la app de manera eficiente.",
+    "zustandLong": "Usé Zustand para gestión de estado ligera y escalable en AgriGlobal Market App y Rendering University Mobile, manejando autenticación, datos de usuario y estado de la app.",
+    "nestjs": "Construí APIs backend escalables con NestJS que alimentan la plataforma web de AgriGlobal Market, la app móvil y los servicios internos, proporcionando una base robusta para todo el ecosistema.",
+    "nestjsLong": "Usé NestJS para construir APIs backend escalables que alimentan la web de AgriGlobal Market, la app móvil y servicios internos.",
+    "ai": "Integré agentes de IA y automatización en AgriGlobal Market, este portafolio y el proyecto Macarena Baby Shower, incluyendo asistencia en revisión de código, generación de especificaciones y skills personalizadas para flujos de desarrollo.",
+    "aiLong": "Integré agentes de IA y automatización en AgriGlobal Market, este portafolio y el proyecto Macarena Baby Shower, incluyendo asistencia en revisión de código, generación de especificaciones y skills personalizadas para flujos de desarrollo.",
+    "deploy": "Gestioné el despliegue end-to-end de AgriGlobal Market App y Rendering University Mobile en App Store y Play Store, manejando pipelines de build, certificados y envíos a tiendas para ambas plataformas.",
+    "deployLong": "Gestioné el despliegue end-to-end de AgriGlobal Market App y Rendering University Mobile en App Store y Play Store, incluyendo pipelines de build, certificados y envíos a tiendas."
   },
   "projects": {
     "title": "Proyectos Destacados",
@@ -32,50 +41,159 @@
     "visitSite": "Visitar sitio",
     "appStore": "App Store",
     "playStore": "Play Store",
+    "viewDetails": "Ver detalles",
+    "backToProjects": "Volver a proyectos",
+    "otherProjects": "Otros proyectos",
+    "role": "Rol",
+    "date": "Fecha",
+    "overview": "Resumen",
+    "problem": "Problema",
+    "solution": "Solución",
+    "features": "Características clave",
+    "gallery": "Galería",
     "items": [
       {
         "title": "AgriGlobal Market - B2B Marketplace",
         "desc": "Plataforma líder en el sector agroindustrial que conecta proveedores y compradores globalmente.",
+        "slug": "agriglobal-market",
         "tags": ["Next.js", "ReactJS", "Tailwind CSS"],
         "link": "https://agriglobalmarket.com",
-        "images": ["/assets/agmweb.png"]
+        "images": ["/assets/agmweb.png"],
+        "detail": {
+          "role": "Mid Frontend Developer",
+          "date": "Oct 2022 - Presente",
+          "overview": "AgriGlobal Market es un marketplace B2B líder en el sector agroindustrial, conectando proveedores y compradores a nivel global. La plataforma permite el comercio ágil de productos agrícolas con enfoque en transparencia y eficiencia.",
+          "problem": "El sector agroindustrial carecía de un marketplace digital centralizado donde proveedores y compradores pudieran conectarse, negociar y transaccionar eficientemente a través de fronteras.",
+          "solution": "Construí una plataforma web integral con Next.js y ReactJS, con listados de productos en tiempo real, perfiles de proveedores y un flujo comercial optimizado para la industria agrícola.",
+          "features": [
+            "Catálogo de productos con búsqueda avanzada y filtros",
+            "Perfiles de proveedores y compradores con calificaciones",
+            "Mensajería en tiempo real entre partes",
+            "Soporte multi-idioma (EN/ES/PT)",
+            "Diseño responsive para móvil y escritorio"
+          ],
+          "gallery": ["/assets/agmweb.png"]
+        }
       },
       {
         "title": "AgriGlobal Market Native App",
         "desc": "Aplicación nativa diseñada para facilitar el comercio agrícola desde cualquier lugar.",
+        "slug": "agriglobal-market-app",
         "tags": ["React Native", "Expo", "Zustand", "NativeWindCSS"],
         "appStoreLink": "https://apps.apple.com/us/app/agriglobal-market/id6746349961",
         "playStoreLink": "https://play.google.com/store/apps/details?id=com.xchecho.agriglobalmApp",
-        "images": ["/assets/agmapp1.png", "/assets/agmapp2.png", "/assets/agmapp3.png"]
+        "images": ["/assets/agmapp1.png", "/assets/agmapp2.png", "/assets/agmapp3.png"],
+        "detail": {
+          "role": "Mobile Developer",
+          "date": "Oct 2022 - Presente",
+          "overview": "Compañera móvil nativa del marketplace B2B de AgriGlobal, permitiendo a los comerciantes explorar productos, comunicarse con proveedores y gestionar pedidos sobre la marcha.",
+          "problem": "Los comerciantes del sector agrícola necesitaban acceso móvil al marketplace mientras visitaban campos, bodegas y ferias comerciales.",
+          "solution": "Desarrollé una app cross-platform con React Native y Expo, usando Zustand para gestión de estado y NativeWindCSS para estilos consistentes en iOS y Android.",
+          "features": [
+            "Notificaciones push para nuevas ofertas y mensajes",
+            "Arquitectura offline-first para uso en campo",
+            "Integración nativa de cámara para fotos de productos",
+            "Autenticación biométrica",
+            "Publicada en App Store y Play Store"
+          ],
+          "gallery": ["/assets/agmapp1.png", "/assets/agmapp2.png", "/assets/agmapp3.png"]
+        }
       },
       {
         "title": "Rendering University - E-Learning",
         "desc": "Plataforma educativa especializada en la industria del rendering.",
+        "slug": "rendering-university",
         "tags": ["ReactJS", "Next.js", "Tailwind CSS"],
         "link": "https://renderinguniversity.com",
-        "images": ["/assets/renderuniweb.png"]
+        "images": ["/assets/renderuniweb.png"],
+        "detail": {
+          "role": "Frontend Developer",
+          "date": "2023",
+          "overview": "Rendering University es una plataforma de e-learning especializada en educación de rendering 3D, ofreciendo cursos, tutoriales y recursos para profesionales y entusiastas de la industria CGI.",
+          "problem": "La industria del rendering necesitaba una plataforma educativa dedicada con cursos estructurados y características de comunidad.",
+          "solution": "Construí una plataforma moderna de e-learning con Next.js, con gestión de cursos, streaming de video y un foro comunitario para estudiantes e instructores.",
+          "features": [
+            "Catálogo de cursos con seguimiento de progreso",
+            "Streaming de video con calidad adaptativa",
+            "Dashboard de estudiante y certificados",
+            "Foro comunitario y Q&A",
+            "Páginas de cursos optimizadas para SEO"
+          ],
+          "gallery": ["/assets/renderuniweb.png"]
+        }
       },
       {
         "title": "Rendering University Mobile",
         "desc": "Extensión móvil de la academia para aprendizaje on-the-go.",
+        "slug": "rendering-university-mobile",
         "tags": ["React Native", "Expo", "NativeWindCSS"],
         "appStoreLink": "https://apps.apple.com/us/app/rendering-university/id6744409489",
         "playStoreLink": "https://play.google.com/store/apps/details?id=com.anonymous.appRenderingUniversity",
-        "images": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"]
+        "images": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"],
+        "detail": {
+          "role": "Mobile Developer",
+          "date": "2023",
+          "overview": "Compañera móvil de Rendering University, permitiendo a los estudiantes ver cursos, seguir su progreso e interactuar con la comunidad desde sus teléfonos.",
+          "problem": "Los estudiantes querían aprender sobre la marcha, durante los desplazamientos o lejos de sus estaciones de trabajo de escritorio.",
+          "solution": "Creé una app móvil con React Native con caché de video offline, sincronización de progreso y notificaciones push para nuevo contenido de cursos.",
+          "features": [
+            "Descarga y reproducción de video offline",
+            "Sincronización de progreso con la plataforma web",
+            "Notificaciones push para nuevo contenido",
+            "Reproductor de video nativo con controles de calidad",
+            "Publicada en App Store y Play Store"
+          ],
+          "gallery": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"]
+        }
       },
       {
-        "title": "Nutrihorto - Reciclou (Brasil)",
-        "desc": "Aplicación móvil que conecta los principales actores del aceite de cocina usado.",
-        "tags": ["React Native", "Expo", "NativeWindCSS"],
-        "link": "https://www.nutrihorto.com.br",
-        "images": []
+        "title": "Baby Shower Macarena - Invitación Digital",
+        "desc": "Landing page interactiva diseñada como invitación digital para un baby shower, con temática Cow Chibi y animaciones suaves y táctiles.",
+        "slug": "macarena-babyshower",
+        "tags": ["React 19", "Vite 6", "Tailwind CSS v4", "Motion"],
+        "link": "https://macarena.xchecho.com",
+        "images": ["/assets/macarena-hero.jpg"],
+        "detail": {
+          "role": "Solo Developer & Designer",
+          "date": "2026",
+          "overview": "Un proyecto personal hecho con amor — una invitación digital interactiva para el baby shower de mi hija Macarena. La página combina minimalismo con elementos cálidos y táctiles, creando una experiencia visual tierna y celebratoria.",
+          "problem": "Necesitaba una invitación digital cálida y compartible que pudiera distribuirse fácilmente por WhatsApp y redes sociales, proporcionando una experiencia memorable para los invitados.",
+          "solution": "Construí una experiencia interactiva de una sola página con React 19, Vite 6 y Tailwind CSS v4. Incluye cuenta regresiva animada, galería tipo polaroid, música de fondo, RSVP por WhatsApp e integración con lista de regalos.",
+          "features": [
+            "Cuenta regresiva animada hasta el evento",
+            "Galería tipo polaroid con lightbox",
+            "Música de fondo con control de mute",
+            "RSVP por WhatsApp con mensaje pre-formateado",
+            "Integración con lista de regalos SmileBaby",
+            "Partículas flotantes (corazones y soles)",
+            "Diseño responsive para móvil y desktop",
+            "Scroll spy para navegación activa"
+          ],
+          "gallery": ["/assets/macarena-gallery-1.jpg", "/assets/macarena-gallery-2.jpg", "/assets/macarena-gallery-3.jpg", "/assets/macarena-gallery-4.jpg"]
+        }
       },
       {
         "title": "Routte - Dashboard Admin",
         "desc": "Panel administrativo para la gestión de rutas de entrega y seguimiento de mensajeros.",
+        "slug": "routte-dashboard",
         "tags": ["ReactJS", "Next.js", "TypeScript"],
         "link": "https://routte.co/",
-        "images": []
+        "images": [],
+        "detail": {
+          "role": "Frontend Developer",
+          "date": "Abr 2022 - Oct 2022",
+          "overview": "Routte es una plataforma logística enfocada en entregas de última milla, proporcionando herramientas para optimización de rutas, seguimiento de mensajeros y gestión de entregas.",
+          "problem": "Las empresas de entrega necesitaban un dashboard centralizado para gestionar rutas, rastrear mensajeros en tiempo real y optimizar operaciones de entrega.",
+          "solution": "Construí un dashboard administrativo con ReactJS y Next.js, con mapas en tiempo real, gestión de rutas y analytics de rendimiento de mensajeros.",
+          "features": [
+            "Seguimiento de mensajeros en tiempo real en mapas",
+            "Algoritmos de optimización de rutas",
+            "Analytics y reportes de entregas",
+            "Dashboard de rendimiento de mensajeros",
+            "Gestión de soporte al cliente"
+          ],
+          "gallery": []
+        }
       }
     ]
   },
@@ -109,12 +227,19 @@
   "contact": {
     "title": "¿Tienes un proyecto en mente?",
     "description": "Estoy siempre abierto a discutir nuevas oportunidades y colaboraciones en el desarrollo móvil.",
-    "sendEmail": "Enviar Email"
+    "sendEmail": "Enviar Email",
+    "downloadCV": "Descargar CV"
   },
   "footer": {
     "text": "Hecho con Next.js y Tailwind."
   },
   "notFound": {
+    "nav": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    },
     "title": "¡Ups! Esta ruta no ha sido desplegada",
     "description": "Parece que esta pantalla no pasó el control de calidad o se quedó en el ambiente de staging. No te preocupes, los mejores bugs ocurren en producción.",
     "backHome": "Volver al Home",
@@ -127,6 +252,5 @@
       "bugHunter": "Cazador de Bugs",
       "bugHunterDesc": "Especialista QA"
     }
-  },
-  "downloadCV": "Descargar CV"
+  }
 }

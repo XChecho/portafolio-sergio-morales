@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Download } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
 
 export default function Contact() {
-  const t = useTranslations();
+  const t = useTranslations('contact');
   const locale = useLocale();
 
   const getCVUrl = () => {
@@ -21,13 +21,13 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 px-6 max-w-5xl mx-auto text-center">
       <div className="p-12 rounded-[3rem] border border-white/10 bg-gradient-to-b from-white/5 to-transparent">
-        <h2 className="text-4xl font-bold mb-6">{t('contact.title')}</h2>
+        <h2 className="text-4xl font-bold mb-6">{t('title')}</h2>
         <p className="text-zinc-400 mb-10 max-w-xl mx-auto">
-          {t('contact.description')}
+          {t('description')}
         </p>
         <div className="flex flex-wrap justify-center gap-6">
           <a href="mailto:sam94c@gmail.com" className="flex items-center gap-2 px-6 py-3 bg-white text-black font-bold rounded-xl hover:scale-105 transition-transform">
-            <Mail className="w-5 h-5" /> {t('contact.sendEmail')}
+            <Mail className="w-5 h-5" /> {t('sendEmail')}
           </a>
           <a 
             href={getCVUrl()} 

@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'motion/react';
+import { motion, useReducedMotion } from 'motion/react';
 import { Cpu, Code, Smartphone, Globe, Layers, Zap, Terminal, Database, Server, Cloud } from 'lucide-react';
 
 const floatingIcons = [
@@ -17,6 +17,10 @@ const floatingIcons = [
 ];
 
 export default function FloatingIcons() {
+  const prefersReducedMotion = useReducedMotion();
+
+  if (prefersReducedMotion) return null;
+
   return (
     <>
       {floatingIcons.map((item, index) => (

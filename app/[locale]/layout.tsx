@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import type { Locale } from '@/i18n/config';
+import { isValidLocale } from '@/i18n/config';
 import type { Metadata } from 'next';
 import '../globals.css';
 import FloatingIcons from '../components/FloatingIcons';
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = 'Portfolio of Sergio Alejandro Morales Cuesta, Senior Frontend Developer specialized in React Native, Expo, and Next.js. 3+ years of experience creating mobile applications.';
   
   return {
-    metadataBase: new URL('https://sergio-morales.dev'),
+    metadataBase: new URL('https://xchecho.com'),
     title: {
       default: title,
       template: '%s | Sergio Morales',
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://sergio-morales.dev',
+      url: 'https://xchecho.com',
       siteName: 'Sergio Morales Portfolio',
       title: title,
       description: description,
@@ -60,15 +60,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       creator: '@XChecho',
     },
     alternates: {
-      canonical: 'https://sergio-morales.dev',
+      canonical: 'https://xchecho.com',
       languages: {
-        'en': 'https://sergio-morales.dev/en',
-        'es': 'https://sergio-morales.dev/es',
-        'pt': 'https://sergio-morales.dev/pt',
+        'en': 'https://xchecho.com/en',
+        'es': 'https://xchecho.com/es',
+        'pt': 'https://xchecho.com/pt',
       },
-    },
-    verification: {
-      google: 'google-site-verification-code',
     },
     icons: {
       icon: '/favicon.svg',
@@ -80,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
   
-  if (!routing.locales.includes(locale as any)) {
+  if (!isValidLocale(locale)) {
     notFound();
   }
 
@@ -89,7 +86,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
-      <body className="antialiased bg-[#0a0a0a] text-white">
+      <body className="antialiased bg-background text-white">
         <FloatingIcons />
         <NextIntlClientProvider messages={messages}>
           {children}

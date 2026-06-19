@@ -1,5 +1,5 @@
 'use client';
-import { motion } from 'motion/react';
+import { motion, useReducedMotion } from 'motion/react';
 import { ReactNode } from 'react';
 
 interface ScrollRevealProps {
@@ -8,6 +8,12 @@ interface ScrollRevealProps {
 }
 
 export default function ScrollReveal({ children, delay = 0 }: ScrollRevealProps) {
+  const prefersReducedMotion = useReducedMotion();
+
+  if (prefersReducedMotion) {
+    return <>{children}</>;
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}

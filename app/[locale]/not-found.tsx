@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { useRouter } from 'next/navigation';
 import { motion } from 'motion/react';
 import { 
@@ -43,8 +43,8 @@ export default function NotFound() {
   ];
   
   return (
-    <div className="bg-[#0a0a0a] text-white min-h-screen flex flex-col font-sans selection:bg-blue-500/30">
-      <header className="w-full border-b border-white/5 px-6 md:px-20 lg:px-40 py-4 flex items-center justify-between bg-[#0a0a0a]/80 backdrop-blur-md sticky top-0 z-50">
+    <div className="bg-background text-white min-h-screen flex flex-col font-sans selection:bg-blue-500/30">
+      <header className="w-full border-b border-white/5 px-6 md:px-20 lg:px-40 py-4 flex items-center justify-between bg-background/80 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center gap-3">
           <div className="text-xl font-bold tracking-tighter">
             SM<span className="text-blue-400">.</span>
@@ -52,10 +52,10 @@ export default function NotFound() {
           <h1 className="text-xl font-bold tracking-tight">Sergio Alejandro</h1>
         </div>
         <nav className="hidden md:flex items-center gap-8">
-          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/">Inicio</Link>
-          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/#projects">Proyectos</Link>
-          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/#experience">Experiencia</Link>
-          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/#contact">Contacto</Link>
+          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/">{t('nav.home')}</Link>
+          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/#projects">{t('nav.projects')}</Link>
+          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/#experience">{t('nav.experience')}</Link>
+          <Link className="text-sm font-medium text-zinc-400 hover:text-white transition-colors" href="/#contact">{t('nav.contact')}</Link>
         </nav>
         <button className="md:hidden text-blue-400">
           <Menu className="w-6 h-6" />
@@ -175,7 +175,7 @@ export default function NotFound() {
         </div>
       </main>
 
-      <footer className="w-full py-10 px-6 border-t border-white/5 bg-[#0a0a0a]/50 text-center">
+      <footer className="w-full py-10 px-6 border-t border-white/5 bg-background/50 text-center">
         <div className="flex flex-wrap justify-center gap-8 mb-6">
           <a className="text-zinc-500 hover:text-blue-400 transition-colors font-medium" href="https://github.com/XChecho" target="_blank" rel="noopener noreferrer">
             <Github className="w-5 h-5" />
