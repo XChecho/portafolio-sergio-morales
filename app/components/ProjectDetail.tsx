@@ -38,7 +38,20 @@ export default function ProjectDetail({ project, allProjects, locale }: ProjectD
   const t = useTranslations('projects');
   const { detail } = project;
   const displayImages = detail.gallery.length > 0 ? detail.gallery : (project.images && project.images.length > 0 ? project.images : []);
+  
+  // Cross-link: if current project is Vantio frontend/api, show the other one first
+  const vantioSlugs = ['vantio-frontend', 'vantio-api'];
+  const isVantioProject = vantioSlugs.includes(project.slug);
   const otherProjects = allProjects.filter(p => p.slug !== project.slug);
+  
+  if (isVantioProject) {
+    const relatedVantio = otherProjects.find(p => vantioSlugs.includes(p.slug));
+    const rest = otherProjects.filter(p => !vantioSlugs.includes(p.slug));
+    if (relatedVantio) {
+      otherProjects.length = 0;
+      otherProjects.push(relatedVantio, ...rest);
+    }
+  }
 
   return (
     <div className="min-h-screen">

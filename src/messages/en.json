@@ -16,24 +16,24 @@
   },
   "skills": {
     "title": "Tech Stack",
-    "reactNative": "Built AgriGlobal Market App and Rendering University Mobile from a single codebase using React Native and Expo, ensuring consistent UX across iOS and Android. Both apps are published on App Store and Play Store.",
-    "reactNativeLong": "Used React Native and Expo to build AgriGlobal Market App and Rendering University Mobile from a single codebase, reducing development time and ensuring consistent UX across iOS and Android. Both apps are published on App Store and Play Store.",
-    "nextjs": "Developed the AgriGlobal Market web platform, Rendering University e-learning site, Routte admin dashboard, and this personal portfolio using Next.js, leveraging SSR and static generation for SEO and performance.",
-    "nextjsLong": "Used Next.js to develop the AgriGlobal Market web platform, Rendering University e-learning site, Routte admin dashboard, and this personal portfolio, leveraging SSR and static generation for SEO and performance.",
+    "reactNative": "Built AgriGlobal Market App and native applications for external clients from a single codebase using React Native and Expo, ensuring consistent UX across iOS and Android. Apps published on App Store and Play Store.",
+    "reactNativeLong": "Used React Native and Expo to build AgriGlobal Market App and native applications for external clients from a single codebase, reducing development time and ensuring consistent UX across iOS and Android. Apps published on App Store and Play Store.",
+    "nextjs": "Developed the AgriGlobal Market web platform, Vantio legal platform, Makii restaurant system, and this personal portfolio using Next.js, leveraging SSR and static generation for SEO and performance.",
+    "nextjsLong": "Used Next.js to develop the AgriGlobal Market web platform, Vantio legal platform, Makii restaurant system, and this personal portfolio, leveraging SSR and static generation for SEO and performance.",
     "hermes": "Automated server provisioning on Hetzner, managed cronjobs in personal projects, and created custom agent skills with Hermes Agent to streamline development workflows and reduce manual tasks.",
     "hermesLong": "Used Hermes Agent to automate server provisioning on Hetzner, manage cronjobs in personal projects, and create custom agent skills that streamline development workflows.",
-    "tailwind": "Styled the AgriGlobal Market website, Rendering University platform, this portfolio, and the Macarena Baby Shower invitation with Tailwind CSS, maintaining a consistent and responsive design system across all projects.",
-    "tailwindLong": "Used Tailwind CSS to style the AgriGlobal Market website, Rendering University platform, this portfolio, and the Macarena Baby Shower invitation, maintaining a consistent and responsive design system.",
-    "nativewind": "Applied Tailwind utility-first styling to AgriGlobal Market App and Rendering University Mobile using NativeWind CSS, keeping design tokens aligned with their web counterparts for a unified look.",
-    "nativewindLong": "Used NativeWind CSS to bring Tailwind utility-first styling into AgriGlobal Market App and Rendering University Mobile, keeping design tokens aligned with their web counterparts.",
-    "zustand": "Implemented lightweight and scalable state management in AgriGlobal Market App and Rendering University Mobile with Zustand, handling authentication, user data, and app state efficiently.",
-    "zustandLong": "Used Zustand for lightweight and scalable state management in AgriGlobal Market App and Rendering University Mobile, handling auth, user data, and app state.",
+    "tailwind": "Styled the AgriGlobal Market website, Vantio legal platform, Makii restaurant system, this portfolio, and the Macarena Baby Shower invitation with Tailwind CSS, maintaining a consistent and responsive design system across all projects.",
+    "tailwindLong": "Used Tailwind CSS to style the AgriGlobal Market website, Vantio legal platform, Makii restaurant system, this portfolio, and the Macarena Baby Shower invitation, maintaining a consistent and responsive design system.",
+    "nativewind": "Applied Tailwind utility-first styling to AgriGlobal Market App and native mobile applications using NativeWind CSS, keeping design tokens aligned with their web counterparts for a unified look.",
+    "nativewindLong": "Used NativeWind CSS to bring Tailwind utility-first styling into AgriGlobal Market App and native mobile applications, keeping design tokens aligned with their web counterparts.",
+    "zustand": "Implemented lightweight and scalable state management in AgriGlobal Market App and personal mobile projects with Zustand, handling authentication, user data, and app state efficiently.",
+    "zustandLong": "Used Zustand for lightweight and scalable state management in AgriGlobal Market App and personal mobile projects, handling auth, user data, and app state.",
     "nestjs": "Built scalable backend APIs with NestJS that power the AgriGlobal Market web platform, mobile app, and internal services, providing a robust foundation for the entire ecosystem.",
     "nestjsLong": "Used NestJS to build scalable backend APIs that power AgriGlobal Market web, mobile app, and internal services.",
     "ai": "Integrated AI agents and automation into AgriGlobal Market, this portfolio, and the Macarena Baby Shower project, including code review assistance, specification generation, and custom agent skills for development workflows.",
     "aiLong": "Integrated AI agents and automation into AgriGlobal Market, this portfolio, and the Macarena Baby Shower project, including code review assistance, specification generation, and custom agent skills for development workflows.",
-    "deploy": "Handled end-to-end deployment of AgriGlobal Market App and Rendering University Mobile to App Store and Play Store, managing build pipelines, certificates, and store submissions for both platforms.",
-    "deployLong": "Handled end-to-end deployment of AgriGlobal Market App and Rendering University Mobile to App Store and Play Store, including build pipelines, certificates, and store submissions."
+    "deploy": "Handled end-to-end deployment of AgriGlobal Market App and native applications to App Store and Play Store, managing build pipelines, certificates, and store submissions for both platforms.",
+    "deployLong": "Handled end-to-end deployment of AgriGlobal Market App and native applications to App Store and Play Store, including build pipelines, certificates, and store submissions."
   },
   "projects": {
     "title": "Featured Projects",
@@ -52,6 +52,78 @@
     "features": "Key features",
     "gallery": "Gallery",
     "items": [
+      {
+        "title": "Vantio - Legal Platform",
+        "desc": "Interactive quiz platform and mock exams for lawyers preparing for qualifying exams.",
+        "slug": "vantio-frontend",
+        "tags": ["Next.js 15", "TypeScript", "Tailwind CSS", "Motion"],
+        "link": "https://vantio.xchecho.com",
+        "images": ["/assets/vantioFrontend.png"],
+        "detail": {
+          "role": "Full-Stack Developer & Designer",
+          "date": "Jan 2026 - Present",
+          "overview": "Vantio is a legal preparation platform with interactive quizzes, timed mock exams, progress metrics, and content updated to the Colombian General Process Code.",
+          "problem": "Law students lacked a modern mock exam platform that combined academic rigor with distraction-free UX and real progress metrics.",
+          "solution": "Designed and built a full-stack platform with Next.js 15, Tailwind CSS, and Motion animations. The UI is dark-mode-first, mobile-first, and optimized for long study sessions.",
+          "features": [
+            "Random mock exams with timer and practice mode",
+            "Progress metrics and pass rate by area",
+            "Question pool updated to the Colombian General Process Code",
+            "Authentication and registration system",
+            "Responsive design optimized for long sessions",
+            "Native dark mode without additional libraries"
+          ],
+          "gallery": ["/assets/vantioFrontend.png"]
+        }
+      },
+      {
+        "title": "Vantio API - REST Backend",
+        "desc": "REST API powering Vantio: manages questions, mock exams, progress metrics, and authentication.",
+        "slug": "vantio-api",
+        "tags": ["NestJS", "TypeScript", "REST API", "PostgreSQL", "Scalar"],
+        "link": "https://vantioapi.xchecho.com/api/docs",
+        "images": ["/assets/vantioBackend.png"],
+        "detail": {
+          "role": "Backend Developer",
+          "date": "Jan 2026 - Present",
+          "overview": "Vantio backend exposed as a REST API with interactive documentation generated by Scalar. Handles the complete platform domain: question bank, mock exams, study sessions, progress, and authentication.",
+          "problem": "Needed a solid, versioned, and documented backend that could scale as the legal platform grows in content and users, without sacrificing Developer Experience.",
+          "solution": "Built a REST API with NestJS following modular architecture, with end-to-end TypeScript, auto-generated OpenAPI, health checks, semantic versioning, and a /api/version endpoint for deployment traceability.",
+          "features": [
+            "Interactive documentation with Scalar UI",
+            "Versioned endpoints with semantic versioning",
+            "Health check and /api/version endpoint for deployments",
+            "Modular architecture by domain (questions, mock exams, users)",
+            "JWT authentication with NestJS guards",
+            "PostgreSQL + Prisma/TypeORM as persistence layer"
+          ],
+          "gallery": ["/assets/vantioBackend.png"]
+        }
+      },
+      {
+        "title": "Makii - Restaurant System",
+        "desc": "All-in-one SaaS for restaurants: orders, cash register, roles, court reservations, and events with ticketing.",
+        "slug": "makii",
+        "tags": ["Next.js 15", "TypeScript", "Tailwind CSS", "SaaS"],
+        "link": "https://makii.xchecho.com",
+        "images": ["/assets/makii.png"],
+        "detail": {
+          "role": "Product Engineer",
+          "date": "Mar 2026 - Present",
+          "overview": "Makii is an operating system for restaurants that unifies orders, cash register, role management, space reservations (synthetic courts), and events with ticketing — all in a single platform.",
+          "problem": "Restaurants manage orders, cash register, reservations, and events with disconnected tools, losing traceability and forcing the team to jump between screens and spreadsheets.",
+          "solution": "Built a responsive web platform with Next.js 15 that centralizes restaurant operations with role-specific views (admin, cashier, kitchen, waiter), reservations by person (not by table), and an upcoming events module.",
+          "features": [
+            "Unified orders and cash register flow",
+            "Role-specific views: admin, cashier, kitchen, waiter",
+            "Synthetic court reservations by hours and by person",
+            "Events with ticketing, access control, and reports",
+            "Mobile app and web synchronized in real time",
+            "Public roadmap: native delivery module"
+          ],
+          "gallery": ["/assets/makii.png"]
+        }
+      },
       {
         "title": "AgriGlobal Market - B2B Marketplace",
         "desc": "Leading platform in the agroindustrial sector that connects suppliers and buyers globally.",
@@ -100,53 +172,6 @@
         }
       },
       {
-        "title": "Rendering University - E-Learning",
-        "desc": "Educational platform specialized in the rendering industry.",
-        "slug": "rendering-university",
-        "tags": ["ReactJS", "Next.js", "Tailwind CSS"],
-        "link": "https://renderinguniversity.com",
-        "images": ["/assets/renderuniweb.png"],
-        "detail": {
-          "role": "Frontend Developer",
-          "date": "2023",
-          "overview": "Rendering University is an e-learning platform specialized in 3D rendering education, offering courses, tutorials, and resources for professionals and enthusiasts in the CGI industry.",
-          "problem": "The rendering industry needed a dedicated educational platform with structured courses and community features.",
-          "solution": "Built a modern e-learning platform with Next.js, featuring course management, video streaming, and a community forum for students and instructors.",
-          "features": [
-            "Course catalog with progress tracking",
-            "Video streaming with adaptive quality",
-            "Student dashboard and certificates",
-            "Community forum and Q&A",
-            "SEO-optimized course pages"
-          ],
-          "gallery": ["/assets/renderuniweb.png"]
-        }
-      },
-      {
-        "title": "Rendering University Mobile",
-        "desc": "Mobile extension of the academy for on-the-go learning.",
-        "slug": "rendering-university-mobile",
-        "tags": ["React Native", "Expo", "NativeWindCSS"],
-        "appStoreLink": "https://apps.apple.com/us/app/rendering-university/id6744409489",
-        "playStoreLink": "https://play.google.com/store/apps/details?id=com.anonymous.appRenderingUniversity",
-        "images": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"],
-        "detail": {
-          "role": "Mobile Developer",
-          "date": "2023",
-          "overview": "Mobile companion for Rendering University, allowing students to watch courses, track progress, and interact with the community from their phones.",
-          "problem": "Students wanted to learn on the go, during commutes, or away from their desktop workstations.",
-          "solution": "Created a React Native mobile app with offline video caching, progress sync, and push notifications for new course content.",
-          "features": [
-            "Offline video download and playback",
-            "Progress sync with web platform",
-            "Push notifications for new content",
-            "Native video player with quality controls",
-            "Published on both App Store and Play Store"
-          ],
-          "gallery": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"]
-        }
-      },
-      {
         "title": "Baby Shower Macarena - Digital Invitation",
         "desc": "Interactive landing page designed as a digital invitation for a baby shower, with Cow Chibi theme and soft tactile animations.",
         "slug": "macarena-babyshower",
@@ -170,29 +195,6 @@
             "Scroll spy for active navigation"
           ],
           "gallery": ["/assets/macarena-gallery-1.jpg", "/assets/macarena-gallery-2.jpg", "/assets/macarena-gallery-3.jpg", "/assets/macarena-gallery-4.jpg"]
-        }
-      },
-      {
-        "title": "Routte - Dashboard Admin",
-        "desc": "Admin dashboard for delivery route management and courier tracking.",
-        "slug": "routte-dashboard",
-        "tags": ["ReactJS", "Next.js", "TypeScript"],
-        "link": "https://routte.co/",
-        "images": [],
-        "detail": {
-          "role": "Frontend Developer",
-          "date": "Apr 2022 - Oct 2022",
-          "overview": "Routte is a logistics platform focused on last-mile delivery, providing tools for route optimization, courier tracking, and delivery management.",
-          "problem": "Delivery companies needed a centralized dashboard to manage routes, track couriers in real-time, and optimize delivery operations.",
-          "solution": "Built an admin dashboard with ReactJS and Next.js, featuring real-time maps, route management, and courier performance analytics.",
-          "features": [
-            "Real-time courier tracking on maps",
-            "Route optimization algorithms",
-            "Delivery analytics and reporting",
-            "Courier performance dashboard",
-            "Client support management"
-          ],
-          "gallery": []
         }
       }
     ]

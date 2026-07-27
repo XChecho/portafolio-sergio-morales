@@ -16,24 +16,24 @@
   },
   "skills": {
     "title": "Stack Tecnológico",
-    "reactNative": "Desenvolvi AgriGlobal Market App e Rendering University Mobile a partir de uma única base de código usando React Native e Expo, garantindo uma experiência consistente em iOS e Android. Ambos os apps estão publicados na App Store e Play Store.",
-    "reactNativeLong": "Usei React Native e Expo para construir AgriGlobal Market App e Rendering University Mobile a partir de uma única base de código, reduzindo o tempo de desenvolvimento e garantindo uma experiência consistente em iOS e Android. Ambos os apps estão publicados na App Store e Play Store.",
-    "nextjs": "Desenvolvi a plataforma web da AgriGlobal Market, o site de e-learning da Rendering University, o dashboard administrativo da Routte e este portfólio pessoal usando Next.js, aproveitando SSR e geração estática para SEO e performance.",
-    "nextjsLong": "Usei Next.js para desenvolver a plataforma web da AgriGlobal Market, o site de e-learning da Rendering University, o dashboard administrativo da Routte e este portfólio pessoal, aproveitando SSR e geração estática para SEO e performance.",
+    "reactNative": "Desenvolvi AgriGlobal Market App e aplicações nativas para clientes externos a partir de uma única base de código usando React Native e Expo, garantindo uma experiência consistente em iOS e Android. Apps publicados na App Store e Play Store.",
+    "reactNativeLong": "Usei React Native e Expo para construir AgriGlobal Market App e aplicações nativas para clientes externos a partir de uma única base de código, reduzindo o tempo de desenvolvimento e garantindo uma experiência consistente em iOS e Android. Apps publicados na App Store e Play Store.",
+    "nextjs": "Desenvolvi a plataforma web da AgriGlobal Market, a plataforma jurídica Vantio, o sistema de restaurantes Makii e este portfólio pessoal usando Next.js, aproveitando SSR e geração estática para SEO e performance.",
+    "nextjsLong": "Usei Next.js para desenvolver a plataforma web da AgriGlobal Market, a plataforma jurídica Vantio, o sistema de restaurantes Makii e este portfólio pessoal, aproveitando SSR e geração estática para SEO e performance.",
     "hermes": "Automatizei o provisionamento de servidores na Hetzner, gerenciei cronjobs em projetos pessoais e criei skills personalizadas com Hermes Agent para otimizar fluxos de trabalho de desenvolvimento e reduzir tarefas manuais.",
     "hermesLong": "Usei Hermes Agent para automatizar o provisionamento de servidores na Hetzner, gerenciar cronjobs em projetos pessoais e criar skills personalizadas que otimizam fluxos de trabalho de desenvolvimento.",
-    "tailwind": "Estilizei o site da AgriGlobal Market, a plataforma da Rendering University, este portfólio e o convite do Macarena Baby Shower com Tailwind CSS, mantendo um sistema de design consistente e responsivo em todos os projetos.",
-    "tailwindLong": "Usei Tailwind CSS para estilizar o site da AgriGlobal Market, a plataforma da Rendering University, este portfólio e o convite do Macarena Baby Shower, mantendo um sistema de design consistente e responsivo.",
-    "nativewind": "Apliquei estilos utility-first do Tailwind ao AgriGlobal Market App e Rendering University Mobile usando NativeWind CSS, mantendo os design tokens alinhados com suas versões web para um visual unificado.",
-    "nativewindLong": "Usei NativeWind CSS para levar os estilos utility-first do Tailwind para AgriGlobal Market App e Rendering University Mobile, mantendo os design tokens alinhados com suas versões web.",
-    "zustand": "Implementei gerenciamento de estado leve e escalável no AgriGlobal Market App e Rendering University Mobile com Zustand, lidando com autenticação, dados do usuário e estado do app de forma eficiente.",
-    "zustandLong": "Usei Zustand para gerenciamento de estado leve e escalável em AgriGlobal Market App e Rendering University Mobile, lidando com autenticação, dados do usuário e estado do app.",
+    "tailwind": "Estilizei o site da AgriGlobal Market, a plataforma jurídica Vantio, o sistema de restaurantes Makii, este portfólio e o convite do Macarena Baby Shower com Tailwind CSS, mantendo um sistema de design consistente e responsivo em todos os projetos.",
+    "tailwindLong": "Usei Tailwind CSS para estilizar o site da AgriGlobal Market, a plataforma jurídica Vantio, o sistema de restaurantes Makii, este portfólio e o convite do Macarena Baby Shower, mantendo um sistema de design consistente e responsivo.",
+    "nativewind": "Apliquei estilos utility-first do Tailwind ao AgriGlobal Market App e aplicações nativas móveis usando NativeWind CSS, mantendo os design tokens alinhados com suas versões web para um visual unificado.",
+    "nativewindLong": "Usei NativeWind CSS para levar os estilos utility-first do Tailwind para AgriGlobal Market App e aplicações nativas móveis, mantendo os design tokens alinhados com suas versões web.",
+    "zustand": "Implementei gerenciamento de estado leve e escalável no AgriGlobal Market App e projetos móveis pessoais com Zustand, lidando com autenticação, dados do usuário e estado do app de forma eficiente.",
+    "zustandLong": "Usei Zustand para gerenciamento de estado leve e escalável em AgriGlobal Market App e projetos móveis pessoais, lidando com autenticação, dados do usuário e estado do app.",
     "nestjs": "Construí APIs backend escaláveis com NestJS que alimentam a plataforma web da AgriGlobal Market, o app mobile e os serviços internos, fornecendo uma base robusta para todo o ecossistema.",
     "nestjsLong": "Usei NestJS para construir APIs backend escaláveis que alimentam a web da AgriGlobal Market, o app mobile e serviços internos.",
     "ai": "Integrei agentes de IA e automação na AgriGlobal Market, neste portfólio e no projeto Macarena Baby Shower, incluindo assistência em revisão de código, geração de especificações e skills personalizadas para fluxos de desenvolvimento.",
     "aiLong": "Integrei agentes de IA e automação na AgriGlobal Market, neste portfólio e no projeto Macarena Baby Shower, incluindo assistência em revisão de código, geração de especificações e skills personalizadas para fluxos de desenvolvimento.",
-    "deploy": "Gerenciei o deploy end-to-end do AgriGlobal Market App e Rendering University Mobile na App Store e Play Store, gerenciando pipelines de build, certificados e envios às lojas para ambas as plataformas.",
-    "deployLong": "Gerenciei o deploy end-to-end de AgriGlobal Market App e Rendering University Mobile na App Store e Play Store, incluindo pipelines de build, certificados e envios às lojas."
+    "deploy": "Gerenciei o deploy end-to-end do AgriGlobal Market App e aplicações nativas na App Store e Play Store, gerenciando pipelines de build, certificados e envios às lojas para ambas as plataformas.",
+    "deployLong": "Gerenciei o deploy end-to-end de AgriGlobal Market App e aplicações nativas na App Store e Play Store, incluindo pipelines de build, certificados e envios às lojas."
   },
   "projects": {
     "title": "Projetos em Destaque",
@@ -52,6 +52,78 @@
     "features": "Características principais",
     "gallery": "Galeria",
     "items": [
+      {
+        "title": "Vantio - Plataforma Jurídica",
+        "desc": "Plataforma de questionários interativos e simulados para advogados que preparam exames preparatórios.",
+        "slug": "vantio-frontend",
+        "tags": ["Next.js 15", "TypeScript", "Tailwind CSS", "Motion"],
+        "link": "https://vantio.xchecho.com",
+        "images": ["/assets/vantioFrontend.png"],
+        "detail": {
+          "role": "Full-Stack Developer & Designer",
+          "date": "Jan 2026 - Atual",
+          "overview": "Vantio é uma plataforma de preparação jurídica com questionários interativos, simulados cronometrados, métricas de progresso e conteúdo atualizado ao Código Geral do Processo colombiano.",
+          "problem": "Os estudantes de Direito não contavam com uma plataforma moderna de simulados preparatórios que combinasse rigor acadêmico com UX livre de distrações e métricas reais de progresso.",
+          "solution": "Projetei e construí uma plataforma full-stack com Next.js 15, Tailwind CSS e animações com Motion. A UI é dark-mode-first, mobile-first e otimizada para longas sessões de estudo.",
+          "features": [
+            "Simulados aleatórios com temporizador e modo prática",
+            "Métricas de progresso e taxa de aprovação por área",
+            "Pool de perguntas atualizado ao Código Geral do Processo",
+            "Sistema de autenticação e registro",
+            "Design responsivo otimizado para longas sessões",
+            "Dark mode nativo sem bibliotecas adicionais"
+          ],
+          "gallery": ["/assets/vantioFrontend.png"]
+        }
+      },
+      {
+        "title": "Vantio API - Backend REST",
+        "desc": "API REST que suporta o Vantio: gerencia perguntas, simulados, métricas de progresso e autenticação.",
+        "slug": "vantio-api",
+        "tags": ["NestJS", "TypeScript", "REST API", "PostgreSQL", "Scalar"],
+        "link": "https://vantioapi.xchecho.com/api/docs",
+        "images": ["/assets/vantioBackend.png"],
+        "detail": {
+          "role": "Backend Developer",
+          "date": "Jan 2026 - Atual",
+          "overview": "Backend do Vantio exposto como REST API com documentação interativa gerada pelo Scalar. Gerencia o domínio completo da plataforma: banco de perguntas, simulados, sessões de estudo, progresso e autenticação.",
+          "problem": "Precisava de um backend sólido, versionado e documentado que pudesse escalar à medida que a plataforma jurídica cresce em conteúdo e usuários, sem sacrificar Developer Experience.",
+          "solution": "Construí uma API REST com NestJS seguindo arquitetura modular, com TypeScript de ponta a ponta, OpenAPI auto-gerado, health checks, versionamento semântico e um endpoint /api/version para rastreabilidade de deploys.",
+          "features": [
+            "Documentação interativa com Scalar UI",
+            "Endpoints versionados com versionamento semântico",
+            "Health check e endpoint /api/version para deploys",
+            "Arquitetura modular por domínio (perguntas, simulados, usuários)",
+            "Autenticação JWT com guards do NestJS",
+            "PostgreSQL + Prisma/TypeORM como camada de persistência"
+          ],
+          "gallery": ["/assets/vantioBackend.png"]
+        }
+      },
+      {
+        "title": "Makii - Sistema para Restaurantes",
+        "desc": "SaaS tudo-em-um para restaurantes: comandas, caixa, funções, reservas de quadras e eventos com bilheteria.",
+        "slug": "makii",
+        "tags": ["Next.js 15", "TypeScript", "Tailwind CSS", "SaaS"],
+        "link": "https://makii.xchecho.com",
+        "images": ["/assets/makii.png"],
+        "detail": {
+          "role": "Product Engineer",
+          "date": "Mar 2026 - Atual",
+          "overview": "Makii é um sistema operacional para restaurantes que unifica comandas, caixa, gestão de funções, reservas de espaços (quadras sintéticas) e eventos com bilheteria — tudo em uma única plataforma.",
+          "problem": "Os restaurantes gerenciam comandas, caixa, reservas e eventos com ferramentas desconectadas, perdendo rastreabilidade e obrigando a equipe a saltar entre telas e planilhas.",
+          "solution": "Construí uma plataforma web responsiva com Next.js 15 que centraliza as operações do restaurante com visualizações diferenciadas por função (admin, caixa, cozinha, garçom), reservas por pessoa (não por mesa) e um módulo de eventos próximo ao lançamento.",
+          "features": [
+            "Comandas e caixa com fluxo unificado",
+            "Visualizações por função: administrador, caixa, cozinha, garçom",
+            "Reservas de quadras sintéticas por horas e por pessoa",
+            "Eventos com bilheteria, controle de acessos e relatórios",
+            "App móvel e web sincronizadas em tempo real",
+            "Roadmap público: módulo de entregas nativas"
+          ],
+          "gallery": ["/assets/makii.png"]
+        }
+      },
       {
         "title": "AgriGlobal Market - B2B Marketplace",
         "desc": "Plataforma líder no setor agroindustrial que conecta fornecedores e compradores globalmente.",
@@ -100,53 +172,6 @@
         }
       },
       {
-        "title": "Rendering University - E-Learning",
-        "desc": "Plataforma educacional especializada na indústria de rendering.",
-        "slug": "rendering-university",
-        "tags": ["ReactJS", "Next.js", "Tailwind CSS"],
-        "link": "https://renderinguniversity.com",
-        "images": ["/assets/renderuniweb.png"],
-        "detail": {
-          "role": "Frontend Developer",
-          "date": "2023",
-          "overview": "Rendering University é uma plataforma de e-learning especializada em educação de renderização 3D, oferecendo cursos, tutoriais e recursos para profissionais e entusiastas da indústria CGI.",
-          "problem": "A indústria de rendering precisava de uma plataforma educacional dedicada com cursos estruturados e recursos de comunidade.",
-          "solution": "Construí uma plataforma moderna de e-learning com Next.js, com gerenciamento de cursos, streaming de vídeo e um fórum comunitário para estudantes e instrutores.",
-          "features": [
-            "Catálogo de cursos com rastreamento de progresso",
-            "Streaming de vídeo com qualidade adaptativa",
-            "Dashboard do estudante e certificados",
-            "Fórum comunitário e Q&A",
-            "Páginas de cursos otimizadas para SEO"
-          ],
-          "gallery": ["/assets/renderuniweb.png"]
-        }
-      },
-      {
-        "title": "Rendering University Mobile",
-        "desc": "Extensão móvel da academia para aprendizado on-the-go.",
-        "slug": "rendering-university-mobile",
-        "tags": ["React Native", "Expo", "NativeWindCSS"],
-        "appStoreLink": "https://apps.apple.com/us/app/rendering-university/id6744409489",
-        "playStoreLink": "https://play.google.com/store/apps/details?id=com.anonymous.appRenderingUniversity",
-        "images": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"],
-        "detail": {
-          "role": "Mobile Developer",
-          "date": "2023",
-          "overview": "Companheiro móvel da Rendering University, permitindo que estudantes assistam cursos, acompanhem seu progresso e interajam com a comunidade de seus telefones.",
-          "problem": "Estudantes queriam aprender em qualquer lugar, durante deslocamentos ou longe de suas estações de trabalho desktop.",
-          "solution": "Criei um app móvel com React Native com cache de vídeo offline, sincronização de progresso e notificações push para novo conteúdo de cursos.",
-          "features": [
-            "Download e reprodução de vídeo offline",
-            "Sincronização de progresso com a plataforma web",
-            "Notificações push para novo conteúdo",
-            "Player de vídeo nativo com controles de qualidade",
-            "Publicado na App Store e Play Store"
-          ],
-          "gallery": ["/assets/ruapp1.png", "/assets/ruapp2.png", "/assets/ruapp3.png"]
-        }
-      },
-      {
         "title": "Baby Shower Macarena - Convite Digital",
         "desc": "Landing page interativa projetada como convite digital para um chá de bebê, com tema Cow Chibi e animações suaves e táteis.",
         "slug": "macarena-babyshower",
@@ -170,29 +195,6 @@
             "Scroll spy para navegação ativa"
           ],
           "gallery": ["/assets/macarena-gallery-1.jpg", "/assets/macarena-gallery-2.jpg", "/assets/macarena-gallery-3.jpg", "/assets/macarena-gallery-4.jpg"]
-        }
-      },
-      {
-        "title": "Routte - Dashboard Admin",
-        "desc": "Painel administrativo para gestão de rotas de entrega e rastreamento de mensageiros.",
-        "slug": "routte-dashboard",
-        "tags": ["ReactJS", "Next.js", "TypeScript"],
-        "link": "https://routte.co/",
-        "images": [],
-        "detail": {
-          "role": "Frontend Developer",
-          "date": "Abr 2022 - Out 2022",
-          "overview": "Routte é uma plataforma logística focada em entregas de última milha, fornecendo ferramentas para otimização de rotas, rastreamento de mensageiros e gestão de entregas.",
-          "problem": "Empresas de entrega precisavam de um dashboard centralizado para gerenciar rotas, rastrear mensageiros em tempo real e otimizar operações de entrega.",
-          "solution": "Construí um dashboard administrativo com ReactJS e Next.js, com mapas em tempo real, gestão de rotas e analytics de desempenho de mensageiros.",
-          "features": [
-            "Rastreamento de mensageiros em tempo real em mapas",
-            "Algoritmos de otimização de rotas",
-            "Analytics e relatórios de entregas",
-            "Dashboard de desempenho de mensageiros",
-            "Gestão de suporte ao cliente"
-          ],
-          "gallery": []
         }
       }
     ]
