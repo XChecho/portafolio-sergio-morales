@@ -47,11 +47,11 @@ export default function Hero() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl">
               <Image
-                src="/assets/profile.png"
+                src="/assets/newProfile.JPG"
                 alt="Sergio Alejandro Morales"
                 fill
                 sizes="(max-width: 768px) 256px, 320px"
-                className="object-cover"
+                className="object-cover object-[70%_center]"
                 priority
               />
             </div>

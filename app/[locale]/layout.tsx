@@ -45,9 +45,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: description,
       images: [
         {
-          url: '/assets/profile.png',
-          width: 800,
-          height: 800,
+          url: '/assets/newProfile.JPG',
+          width: 2048,
+          height: 1365,
           alt: 'Sergio Morales - Mobile Specialist & React Native Developer',
         },
       ],
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: title,
       description: description,
-      images: ['/assets/profile.png'],
+      images: ['/assets/newProfile.JPG'],
       creator: '@XChecho',
     },
     alternates: {
